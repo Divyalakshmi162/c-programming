@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  printf("%s\n","Tipu");
+  printf("%d\n", 2);
+  printf("%s\n", "Carrot");
+  return 0;
+}
