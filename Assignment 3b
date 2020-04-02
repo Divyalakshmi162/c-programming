@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+    
+{
+  /* c program to calculate simple interest*/
+  double p ;
+  double t ;
+  double r ;
+  /* Input p,t and r*/
+  printf("Enter p : ");
+  scanf("%lf", & p);
+  printf("Enter t : ");
+  scanf("%lf", & t);
+  printf("Enter r : ");
+  scanf("%lf", & r);
+  
+  printf("Simple interest :%f",(p*t*r)/100);
+  return 0;
+}
