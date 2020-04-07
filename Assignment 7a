@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  double bs ;
+  printf("Enter bs:");
+  scanf("%lf",& bs);
+  printf("Net salary:%f",bs+bs*0.1+bs*0.12);
+  return 0;
+}
