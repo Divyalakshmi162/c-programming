@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main(){
+  double mark;
+  printf("Enter your mark:");
+  scanf("%lf",& mark);
+  
+  if(mark >=90){;
+   printf("Grade A1") ;
+  }else if(mark >=80){;
+    printf("Grade A2");
+  }else if(mark >=70){;
+    printf("Grade B1");
+  }else if(mark >=60){;
+    printf("Grade B2");
+  }else if(mark >=45){;
+    printf("Grade C");
+  }else{;
+    printf("Grade F");
+    
+  };
+  return 0;
+}
