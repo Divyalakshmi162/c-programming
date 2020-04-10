@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+  char string[100],t0;
+  int begin,end,count=0;
+  printf("Enter a string:\n");
+  scanf("%s",&string);
+  
+  begin=0;
+  end= strlen(string)-1;
+  
+  while(begin<end){
+    t0= string[begin];
+    string[begin]=string[end];
+    string[end]=t0;
+    begin++;
+    end--;
+    count++;
+  }
+  printf("Reverse of the string is:%s",string);
+  return 0;
+}
