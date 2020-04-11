@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+//Compiler version gcc  6.3.0
+/*
+  strchr()
+  strstr(main string,substring)
+  */
+
+int main()
+{
+  char mainstring[50]="mynameisdivya";
+  char substring[30]="divya";
+  char *result;
+  result= strstr(mainstring,substring);
+  if(result){
+    printf("The string is present");
+  }else{
+    printf("string is not present");
+  }
+  
+  return 0;
+}
